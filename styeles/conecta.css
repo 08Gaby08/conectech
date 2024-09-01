@@ -1,0 +1,303 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-inscreva {
+    background-color: #ff6d00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #0083b0, #00b4db);
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.intro-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+}
+
+.buttons button {
+    margin: 10px 5px 0 0;
+    padding: 10px 20px;
+    background-color: #004e64;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.intro-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.text-block {
+    width: 45%;
+}
+
+.text-block h2 {
+    color: #0083b0;
+}
+
+.text-block p {
+    line-height: 1.6;
+}
+
+.text-block button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6d00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos para a seção de números */
+.numbers-section {
+    background-color: #003a5c;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.numbers-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.number-card {
+    background-color: #FF7E3B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+}
+
+.number-card h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.number-card p {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+/* Estilos para a seção de participação */
+.participation-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.participation-section h1 {
+    font-size: 2.5em;
+    color: #FF7E3B;
+    margin-bottom: 40px;
+}
+
+.participation-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.participation-card {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+}
+
+.participation-card h2 {
+    font-size: 1.5em;
+    color: #003a5c;
+    margin-bottom: 15px;
+}
+
+.participation-card p {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.signup-btn-container {
+    margin-top: 30px;
+}
+
+.signup-btn {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #FF7E3B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Estilos para a seção de newsletter */
+.newsletter-section {
+    background-color: #f4f7f9;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+}
+
+.newsletter-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.newsletter-text {
+    margin-left: 40px;
+}
+
+.newsletter-text h2 {
+    font-size: 36px;
+    color: #003a5c;
+}
+
+.newsletter-text p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.newsletter-link {
+    display: inline-block;
+    color: #003a5c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #003a5c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-social-icons {
+    margin-bottom: 10px;
+}
+
+.footer-social-icons a {
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.footer-social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logos img {
+    width: 60px;
+    margin: 0 15px;
+}
